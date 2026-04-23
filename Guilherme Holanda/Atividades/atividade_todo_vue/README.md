@@ -1,6 +1,6 @@
 # Atividade To-Do Vue
 
-Refatoração do aplicativo de lista de tarefas para utilizar Vue 3, com foco no uso `v-for`.
+Refatoração do aplicativo de lista de tarefas desenvolvido em JavaScript para utilizar Vue 3, com foco no `v-for`.
 
 ## Funcionalidades
 
@@ -9,15 +9,34 @@ Refatoração do aplicativo de lista de tarefas para utilizar Vue 3, com foco no
 - Marcar tarefa como concluída (clique na tarefa)
 - Remover tarefa (clique no botão "x")
 
-## Tecnologias
+## Estrutura
 
-- HTML
-- CSS
-- Vue 3 (via CDN)
+- `src/App.vue` — componente raiz da aplicação
+- `src/components/ListaComponent.vue` — componente da lista de tarefas (contém a lógica e o `v-for`)
 
 
-## Recursos do Vue utilizados
+## Como executar
 
-- `v-for` para renderizar a lista de tarefas
-- `v-model` para o campo de entrada
-- `@click` para os eventos de clique
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+Acessar em: `http://localhost:8080`
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
